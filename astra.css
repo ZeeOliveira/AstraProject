@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Special+Gothic+Expanded+One&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    background: #a033cb;
+    background: radial-gradient(circle, rgb(160, 51, 203) 0%, rgb(136, 37, 156) 100%);
+    color: white;
+}
+
+#tet{
+    transition: .35s;
+    cursor: pointer;
+}
+
+#tet:hover > :not(:hover){
+    transition: 1s;
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+#tet:hover{
+    transition: 1s;
+    color: #fff200;
+}
+
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 10px;
+    flex: 1 100%;
+}
+
+header{
+    background: #7013E4;
+    background: radial-gradient(circle, rgba(112, 19, 228, 1) 0%, rgba(50, 6, 105, 1) 100%);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px;
+    letter-spacing: 3px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover{
+    transition: 1s;
+    color: #fff200;
+}
+
+.FTA{
+    display: inline-flex;
+    background: #7013E4;
+    background: radial-gradient(circle, rgba(112, 19, 228, 1) 0%, rgba(50, 6, 105, 1) 100%);
+    justify-content: center;
+    padding: 20px;
+    margin: 30px;
+    flex-flow: row;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.438);
+    height: 100%;
+    width: 95%;
+}
+
+#tet{
+    background-color: #2923599a;
+    width: 500px;
+    padding: 10px;
+    margin: 30px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+} 
+
+#tet > h1{
+    margin: 10px;
+    font-size: 80px;
+    letter-spacing: 2px;
+    
+}
+
+#tet > p{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.Hab{
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+#hab{
+    background: #7013E4;
+    background: radial-gradient(circle, rgba(112, 19, 228, 1) 0%, rgb(82, 11, 170) 100%);
+    padding: 20px;
+    margin: 20px;
+    max-width: 400px;
+    max-height: 600px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.438);
+}
+
+
+#hab{
+    transition: .35s;
+    cursor: pointer;
+}
+
+.Hab:hover > :not(:hover){
+    transition: 1s;
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+.Hab:hover{
+    transition: 1s;
+    color: #fff200;
+}
+
